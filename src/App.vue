@@ -17,6 +17,8 @@ const incrementClicks = () => {
 const changeCountry = newCountry => {
     person.country = newCountry;
 };
+
+const tasks = ref([{taskDescription: '', completed: False}]);
 </script>
 
 <template>
